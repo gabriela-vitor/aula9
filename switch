@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+	int idade = 4;
+	
+	switch(idade){
+		case 1:
+			printf("numero 1");
+			break;
+	    case 2:
+	    	printf("numero 2");
+			break;
+		case 18:
+			printf("numero 18");
+			break;
+		default:
+			printf("o numero nao esta na lista");
+			break;
+			
+	    	
+	}
+}
